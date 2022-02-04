@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/AzureWorkItemsClientDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/AzureWorkItemsClientDemo/actions/workflows/ci.yml)
+
 # AzureWorkItemsClientDemo
 ```
 Using various ways in order to get info about azure work items
@@ -20,8 +22,6 @@ Where [State] <> 'Closed'
 Order by [System.CreatedDate] ASC
 ```
 
->
-> ![AzureWorkItemsClientDemo](Screenshots/AzureWorkItemsClientDemo.png)
->
+![AzureWorkItemsClientDemo](Screenshots/AzureWorkItemsClientDemo.png)
 
-**`Tools`** : vs22, net 6.0, bullseye
+**`Tools`** : vs22, net 6.0, bullseye, azure devops sdk/rest api
