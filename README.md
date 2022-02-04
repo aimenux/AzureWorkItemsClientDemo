@@ -19,7 +19,7 @@ Filtering work items is done via a configurable query. If missing in config file
 Select [System.Id], [System.Title], [System.State] 
 From WorkItems 
 Where [State] <> 'Closed' 
-Order by [System.CreatedDate] ASC
+Order By [System.CreatedDate] ASC
 ```
 
 ![AzureWorkItemsClientDemo](Screenshots/AzureWorkItemsClientDemo.png)
